@@ -16,3 +16,6 @@ Bitwise `^` is nice! Also, lazy `re` matches, I guess 😉
 
 ### Day 3
 
+Not 3 bad :L
+
+Umm... not a lot to say here, except that there might be an O(n) way of doing this?
