@@ -13,3 +13,6 @@ Not too bad, I suppose it's meant to ease you in.
 ### Day 2
 
 Bitwise `^` is nice! Also, lazy `re` matches, I guess 😉
+
+### Day 3
+
