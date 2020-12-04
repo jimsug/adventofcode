@@ -19,3 +19,7 @@ Bitwise `^` is nice! Also, lazy `re` matches, I guess 😉
 Not 3 bad :L
 
 Umm... not a lot to say here, except that there might be an O(n) way of doing this?
+
+### Day 4
+
+More sensible part 2 would have included some error handling, but let's assume the input is well-formed...
