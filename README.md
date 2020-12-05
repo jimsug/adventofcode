@@ -23,3 +23,7 @@ Umm... not a lot to say here, except that there might be an O(n) way of doing th
 ### Day 4
 
 More sensible part 2 would have included some error handling, but let's assume the input is well-formed...
+
+### Day 5
+
+I suppose we should check that each max/min range is equal after iterations, but this worked `/shrug`
