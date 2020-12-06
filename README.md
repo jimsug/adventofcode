@@ -27,3 +27,9 @@ More sensible part 2 would have included some error handling, but let's assume t
 ### Day 5
 
 I suppose we should check that each max/min range is equal after iterations, but this worked `/shrug`
+
+### Day 6
+
+List comprehension worked a treat for the first part.
+
+The second slightly, but not too much more, complicated. I don't know how efficient it is, though.
