@@ -33,3 +33,7 @@ I suppose we should check that each max/min range is equal after iterations, but
 List comprehension worked a treat for the first part.
 
 The second slightly, but not too much more, complicated. I don't know how efficient it is, though.
+
+### Day 7
+
+Hoo, boy. Recursion! Much happier with part two than one.
