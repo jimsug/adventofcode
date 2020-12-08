@@ -6,7 +6,5 @@ with open("2020/day_07/input_07.txt") as x:
 def countRecurse(bag, item):
     return sum([k * countRecurse(bag, j) if k else 0 for j, k in bag[item].items()]) + 1
 
-def countRecursively(bag, item):
-    return countRecurse(bag, item) - 1
-
-print(countRecursively(input, 'shiny gold'))
+print(input)
+print(countRecurse(input, 'shiny gold') - 1)

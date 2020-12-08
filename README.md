@@ -37,3 +37,7 @@ The second slightly, but not too much more, complicated. I don't know how effici
 ### Day 7
 
 Hoo, boy. Recursion! Much happier with part two than one.
+
+### Day 8
+
+Probably slightly easier than Day 7, in my estimation. I also misunderstood the instructions for part two slightly, which cost me a lot of time.
