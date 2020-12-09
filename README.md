@@ -41,3 +41,7 @@ Hoo, boy. Recursion! Much happier with part two than one.
 ### Day 8
 
 Probably slightly easier than Day 7, in my estimation. I also misunderstood the instructions for part two slightly, which cost me a lot of time.
+
+### Day 9
+
+`itertools` almost feels like cheating, but I'd be able to implement this without it. It'd just be harder 😛
