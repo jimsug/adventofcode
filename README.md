@@ -45,3 +45,7 @@ Probably slightly easier than Day 7, in my estimation. I also misunderstood the 
 ### Day 9
 
 `itertools` almost feels like cheating, but I'd be able to implement this without it. It'd just be harder 😛
+
+### Day 10
+
+Dynamic programming is fun, and this was definitely the most challenging so far. Very cool, though.
