@@ -49,3 +49,14 @@ Probably slightly easier than Day 7, in my estimation. I also misunderstood the 
 ### Day 10
 
 Dynamic programming is fun, and this was definitely the most challenging so far. Very cool, though.
+
+### Day 11
+
+Oh boy, [adventofcode/2020/day_11/day11.py] is basically a war crime, but I got there in the end.
+
+Main issues were:
+
+* Probably not reading through instructions correctly
+* Probably not testing my code against the provided sample early enough (though in my defence, I've been right in the past without really doing this whole 'testing' thing)
+
+I will probably try to clean this up, since it seems to me that part 2, particularly, is potentially problematic in terms of runtime for extremely large input.
