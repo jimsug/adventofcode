@@ -52,7 +52,7 @@ Dynamic programming is fun, and this was definitely the most challenging so far.
 
 ### Day 11
 
-Oh boy, [adventofcode/2020/day_11/day11.py] is basically a war crime, but I got there in the end.
+Oh boy, [adventofcode/2020/day_11/day11.py](day 11) is basically a war crime, but I got there in the end.
 
 Main issues were:
 
