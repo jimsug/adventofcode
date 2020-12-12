@@ -60,3 +60,9 @@ Main issues were:
 * Probably not testing my code against the provided sample early enough (though in my defence, I've been right in the past without really doing this whole 'testing' thing)
 
 I will probably try to clean this up, since it seems to me that part 2, particularly, is potentially problematic in terms of runtime for extremely large input.
+
+### Day 12
+
+So, seems like I'm in a pattern of using a single file for both parts. Makes sense unless (and maybe even if) the input changes between the parts, though.
+
+This is a very naive approach, which I'm sure could be improved.
