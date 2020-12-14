@@ -10,7 +10,7 @@ for verb, arg in input:
   if verb == 'mask':
     mask = arg
   else:
-    addr = int(re.findall('\[(\d+)\]', verb)[0])
+    addr = int(re.findall(r'\[(\d+)\]', verb)[0])
     try:
       current = mem[addr]
     except KeyError:
@@ -38,7 +38,7 @@ for verb, arg in input:
   if verb == 'mask':
     mask = arg
   else:
-    addr = bin(int(re.findall('\[(\d+)\]', verb)[0]))[2:].zfill(36)
+    addr = bin(int(re.findall(r'\[(\d+)\]', verb)[0]))[2:].zfill(36)
     try:
       current = mem[addr]
     except KeyError:
