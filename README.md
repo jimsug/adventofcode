@@ -66,3 +66,17 @@ I will probably try to clean this up, since it seems to me that part 2, particul
 So, seems like I'm in a pattern of using a single file for both parts. Makes sense unless (and maybe even if) the input changes between the parts, though.
 
 This is a very naive approach, which I'm sure could be improved.
+
+### Day 13
+
+Hoo, boy.
+
+Part 1 was painful. I couldn't have done part 2 without reddit and way too much learning about Chinese Remainder Theorem. I'm sure it'll come in handy some other time, riiiiight?
+
+### Day 14
+
+So again, firstly, misunderstood part one at first. Then I misunderstood part two at first.
+
+Then I used the wrong method from `itertools`.
+
+But, eventually, I got there, by hook and by crook.
