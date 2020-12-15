@@ -80,3 +80,28 @@ So again, firstly, misunderstood part one at first. Then I misunderstood part tw
 Then I used the wrong method from `itertools`.
 
 But, eventually, I got there, by hook and by crook.
+
+### Day 15
+
+My original implementation of it was pretty naive and is roughly what [day_15.py](adventofcode/2020/day_15/day_15.py) is.
+
+My flatmate suggested parallel arrays, which is what [day_15b.py](adventofcode/2020/day_15/day_15b.py) is, which turns out to be a bit faster even with a reasonably sparse array.
+
+```bash
+$ time python3 day_15.py
+Part 1 (2020th item): 1015
+Part 2 (30000000th item): 201
+
+real	0m18.774s
+user	0m18.309s
+sys	0m0.460s
+$ time python3 day_15b.py
+Part 1 (2020th item): 1015
+Part 2 (30000000th item): 201
+
+real	0m13.926s
+user	0m13.580s
+sys	0m0.345s
+```
+
+A modest improvement, but an improvement nonetheless.
