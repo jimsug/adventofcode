@@ -105,3 +105,7 @@ sys	0m0.345s
 ```
 
 A modest improvement, but an improvement nonetheless.
+
+### Day 16
+
+I <3 sets! Sets probably saved me a lot of time and effort today.
