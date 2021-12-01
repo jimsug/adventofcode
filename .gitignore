@@ -130,4 +130,4 @@ dmypy.json
 
 # vscode folder
 .vscode/
-aoc.code-workspace
+*.code-workspace

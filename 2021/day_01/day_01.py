@@ -1,8 +1,8 @@
 # figure out how quickly the depth increases
 # count the number of times a depth increases from the previous measurement
-
-with open("./day_01/input_1.txt") as f:
-    input = [int(l.strip()) for l in f.readlines()]
+from aocd.models import Puzzle
+p = Puzzle(year=2021, day=1)
+input = [int(l.strip()) for l in p.input_data.split("\n")]
 
 increases = 0
 for i in range(1, len(input)):
