@@ -17,3 +17,6 @@ for i in range(3, len(input)):
         wincreases += 1
 
 print(wincreases)
+
+# single line? I *guess*
+print(sum([1 if input[i] > input[i-1] else 0 for i in range(1, len(input))]), sum([1 if sum(input[i-3:i]) > sum(input[i-4:i-1]) else 0 for i in range(3, len(input))]))
