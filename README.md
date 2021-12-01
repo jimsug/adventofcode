@@ -1,5 +1,11 @@
 # adventofcode
 
+## 2021
+
+### Day 1
+
+An easy start to the year
+
 ## 2020
 
 ### Day 1
