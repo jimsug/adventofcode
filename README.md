@@ -6,6 +6,10 @@
 
 An easy start to the year
 
+### Day 2
+
+Another easy one, I think
+
 ## 2020
 
 ### Day 1
