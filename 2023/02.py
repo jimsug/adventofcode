@@ -1,6 +1,6 @@
 from aocd import get_data
 import re
-p = get_data().splitlines()
+p = get_data(year=2023, day=2).splitlines()
 maximums = {
     "red":12,
     "green":13,
@@ -18,26 +18,20 @@ for l in p:
     }
 
 
-    games = l.split(":")[-1].split(";")
+    games = l.split(":")[-1].replace("; ", ", ")
     game_number = int(l.split(":")[0].split(" ")[-1])
 
-    for game in games:
-        shown = [c.split(" ") for c in game.strip().split(", ")]
-        # print(game_number, shown)
-        for s in shown:
-            if int(s[0]) > maximums[s[1]]:
-                possible = False
+    shown = [c.split(" ") for c in games.strip().split(", ")]
+    for s in shown:
+        if int(s[0]) > maximums[s[1]]:
+            possible = False
 
-            mins[s[1]] = max(mins[s[1]], int(s[0]))
+        mins[s[1]] = max(mins[s[1]], int(s[0]))
 
     if possible:
         part_one_sums += game_number
 
     part_two_powers.append(mins["red"] * mins["green"] * mins["blue"])
-    # print(part_two_powers[-1], [int(v) for v in mins.values()], l)
 
-
-
-# print(part_one_sums)
-# print(part_two_powers)
+print(part_one_sums)
 print(sum(part_two_powers))
